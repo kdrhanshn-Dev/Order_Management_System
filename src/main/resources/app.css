@@ -1,0 +1,37 @@
+/* --- Genel --- */
+.root {
+    -fx-font-family: "SF Pro Text", "Segoe UI", Roboto, Arial;
+    -fx-base: #f7f7f8;
+}
+.table-view {
+    -fx-background-color: white;
+}
+.table-row-cell:odd {
+    -fx-background-color: #fafafa;
+}
+.tab-pane *.tab-header-background {
+    -fx-background-color: linear-gradient(to bottom, #f4f4f5, #e9e9ea);
+}
+
+/* --- Chip (rozet) stilleri --- */
+.chip {
+    -fx-padding: 3 8 3 8;
+    -fx-background-radius: 12;
+    -fx-font-size: 12px;
+    -fx-font-weight: 600;
+    -fx-text-fill: white;
+}
+.chip-success { -fx-background-color: #16a34a; }
+.chip-warn    { -fx-background-color: #d97706; }
+.chip-error   { -fx-background-color: #dc2626; }
+.chip-idle    { -fx-background-color: #64748b; }
+
+/* --- Sayısal hücreler --- */
+.cell-center {
+    -fx-alignment: CENTER-RIGHT;
+}
+
+/* --- Progress bar (ince) --- */
+.progress-bar > .bar {
+    -fx-background-insets: 0;
+}
