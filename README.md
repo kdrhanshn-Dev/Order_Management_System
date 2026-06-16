@@ -1,5 +1,7 @@
 # Order Management System
 
+[![CI](https://github.com/kdrhanshn-Dev/Order_Management_System/actions/workflows/ci.yml/badge.svg)](https://github.com/kdrhanshn-Dev/Order_Management_System/actions/workflows/ci.yml)
+
 JavaFX tabanlı, **çok iş parçacıklı (multithreaded)** bir sipariş yönetim masaüstü uygulaması. Müşteriler eşzamanlı olarak sipariş oluştururken, ürün kataloğu **okuma/yazma kilitleri (ReentrantReadWriteLock)** ile tutarlı tutulur; siparişler **öncelik** sırasına göre işlenir.
 
 > Kocaeli Üniversitesi YazLab projesi kapsamında geliştirilmiştir.
